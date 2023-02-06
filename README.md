@@ -22,3 +22,6 @@ To greately increase the development speed, we install the [Awesome Flutter Snip
 
 To run the application in an Android or iOS emulator. Simply hit `Cmd+P` and type `Flutter: Launch Emulator`. This will provide you with the option to launch the latest Android or iOS device as an emulator. Then hit the play button in the VSCode editor to run the application.
 
+## Documentation
+
+The [Flutter documenation](https://docs.flutter.dev) is a good place to start when you don't know how to implement something.

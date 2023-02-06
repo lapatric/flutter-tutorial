@@ -14,12 +14,16 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       appBar: AppBar(
         title: const Text('Learn Flutter'),
         automaticallyImplyLeading: false, // removes default back arrow
-        leading: IconButton( // custom back arrow
+        leading: IconButton(
+          // custom back arrow
           onPressed: () {
             Navigator.of(context).pop(); // remove current page, go to previous
           },
           icon: const Icon(Icons.arrow_back_ios),
         ),
+      ),
+      body: Column(
+        children: [Image.asset('images/einstein.jpg')],
       ),
     );
   }

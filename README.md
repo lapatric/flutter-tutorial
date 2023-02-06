@@ -14,3 +14,7 @@ cd my_app
 flutter run 
 ```
 
+## VSCode extensions
+
+To greately increase the development speed, we install the [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) tool. Which allows for quick auto-completes of many absic code snippets in Flutter.
+

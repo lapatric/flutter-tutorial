@@ -1,16 +1,16 @@
-# tutorial
+# Flutter Tutorial
 
-A new Flutter project.
+This is repo follows along with the follow 1 hour Flutter tutorial on youtube: https://youtu.be/C-fKAzdTrLU
 
-## Getting Started
+## Flutter Installation
 
-This project is a starting point for a Flutter application.
+To install follow the [official installation guide](https://docs.flutter.dev/get-started/install). In our case, we've installed Flutter on a macOS device and will be using the iOS simulator provided by XCode as explained in the aformentioned guide. A new flutter project is then created as follows:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+# create new flutter app
+flutter create my_app
+cd my_app
+# run app in simulator
+flutter run 
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

@@ -27,6 +27,8 @@ class RootPage extends StatefulWidget {
 }
 
 class _RootPageState extends State<RootPage> {
+  int currentPage = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,6 +40,19 @@ class _RootPageState extends State<RootPage> {
           debugPrint('Floating Action Button');
         },
         child: const Icon(Icons.add),
+      ),
+      bottomNavigationBar: NavigationBar(
+        destinations: const [
+          NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
+          NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
+        ],
+        onDestinationSelected: (int index){
+          // whenever we change the internal state of a StatefulWidget, we do it in a function we pass to setState
+          setState((){
+            currentPage = index;
+          }); 
+        },
+        selectedIndex: currentPage,
       ),
     );
   }

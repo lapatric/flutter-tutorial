@@ -4,7 +4,7 @@ This is repo follows along with the follow 1 hour Flutter tutorial on youtube: h
 
 ## Flutter Installation
 
-To install follow the [official installation guide](https://docs.flutter.dev/get-started/install). In our case, we've installed Flutter on a macOS device and will be using the iOS simulator provided by XCode as explained in the aformentioned guide. A new flutter project is then created as follows:
+To install Flutter, follow the [official installation guide](https://docs.flutter.dev/get-started/install). In our case, we install it on a macOS device and will be using the iOS simulator provided by XCode - as explained in the aformentioned guide. A new flutter project is then created as follows:
 
 ```bash
 # create new flutter app

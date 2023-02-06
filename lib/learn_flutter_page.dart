@@ -23,7 +23,23 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
         ),
       ),
       body: Column(
-        children: [Image.asset('images/einstein.jpg')],
+        children: [
+          Image.asset('images/einstein.jpg'),
+          const SizedBox(height: 10),
+          const Divider(color: Colors.black),
+          Container(
+            margin: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(10.0),
+            color: Colors.blueGrey,
+            width: double.infinity,
+            child: const Center(
+              child: Text(
+                'This is a text widget',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
